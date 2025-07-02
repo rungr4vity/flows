@@ -7,5 +7,6 @@ import retrofit2.http.GET
 interface ApiService {
 
     @GET("posts")
-     fun getPosts(): Flow<List<Post>>
+     fun getPosts(): List<Post>
+
 }
